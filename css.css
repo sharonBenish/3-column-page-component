@@ -61,7 +61,8 @@ p{
 button{
 	border-radius:32px;
 	cursor:pointer;
-
+	
+	border: 2px solid hsl(0, 0%, 95%);
 	padding: 10px 20px;
 	background-color:hsl(0, 0%, 95%);
 	border: none;
@@ -81,7 +82,6 @@ button{
 
 button:hover{
 	color:hsl(0, 0%, 95%);
-	border: 2px solid hsl(0, 0%, 95%);
 }
 
 .col-1 button:hover{
